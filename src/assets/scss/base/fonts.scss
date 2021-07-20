@@ -67,3 +67,48 @@
 	font-style: normal;
 	font-display: swap;
 }
+
+@font-face
+{
+	font-family: 'Playfair Display';
+	src:url('./fonts/Playfair_Display/Bold/PlayfairDisplay-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	src:url('./fonts/Montserrat/Regular/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	src:url('./fonts/Montserrat/Medium/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	src:url('./fonts/Montserrat/Semi-Bold/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Montserrat';
+	src:url('./fonts/Montserrat/Bold/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
