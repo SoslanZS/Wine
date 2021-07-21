@@ -2,7 +2,38 @@
 
 {% block footer %}
 	<footer>
-		<div class="container">
+		<div class="container footer__container">
+			<section class="footer__wrap">
+				<nav class="footer__menu">
+					<ul class="footer__items">
+						<li class="footer__item"><a href="#">Главная</a></li>
+						<li class="footer__item"><a href="#">Каталог</a></li>
+						<li class="footer__item"><a href="#">Поставщики</a></li>
+						<li class="footer__item"><a href="#">Коллекции</a></li>
+						<li class="footer__item"><a href="#">Дегустация</a></li>
+						<li class="footer__item"><a href="#">Коллекция 2020</a></li>
+						<li class="footer__item"><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="footer__info">
+					<div class="footer__boutique"><a href="#">винный бутик LE CORTE</a></div>
+					<div class="footer__phon"><a href="#">8 (812) 123-45-67</a></div>
+					<div class="footer__icon-inner">
+						<div class="footer__icon">
+							<a href="#">{% include 'assets/svg/yuotube.svg'%}</a>
+						</div>
+						<div class="footer__icon">
+							<a href="#">{% include 'assets/svg/vk.svg'%}</a>
+						</div>
+						<div class="footer__icon">
+							<a href="#">{% include 'assets/svg/facebook.svg'%}</a>
+						</div>
+					</div>
+					<div class="footer__link-site">
+						<a href="#">© le-corte.ru</a>
+					</div>
+				</div>
+			</section>
 		</div>
 	</footer>
 {% endblock %}

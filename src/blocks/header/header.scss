@@ -6,7 +6,7 @@ header
 .header__container
 {
 	padding-top: 30px;
-	padding-bottom: 146px;
+	padding-bottom: 150px;
 }
 
 .header__top{margin-bottom: 583px;}
@@ -37,7 +37,7 @@ header
 
 .header__item
 {
-	padding: 13px 0;
+	padding: 11px 0;
 	text-align: center;
 	border: 1px solid #FFFFFF;
 
@@ -47,7 +47,11 @@ header
 
 	&:last-child{border-right: none;}
 
-	&:nth-child(2),&:nth-child(3){flex-basis: 285px;}
+	&:nth-child(2),&:nth-child(3)
+	{
+		flex-basis: 285px;
+		padding-right: 16px;
+	}
 
 	a
 	{
@@ -55,7 +59,7 @@ header
 		font-style: normal;
 		font-weight: normal;
 		font-size: 14px;
-		line-height: 150%;
+		line-height: 0;
 		color: #fff;
 	}
 }

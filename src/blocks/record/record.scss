@@ -1,0 +1,166 @@
+.record{background-color: #282828;}
+
+.record__container{padding: 100px 20px;}
+
+.record__wrap
+{
+	position: relative;
+	padding: 0 285px;
+	padding-bottom: 77px;
+	border-bottom: 3px solid #C4C4C4;
+
+	&::before
+	{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 344px;
+		width: 3px;
+		background-color: #C4C4C4;
+	}
+
+	&::after
+	{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 400px;
+		width: 3px;
+		background-color: #C4C4C4;
+	}
+}
+
+.record__grape-img
+{
+	position: absolute;
+	top: -40px;
+	left: -30px;
+}
+.record__barrel
+{
+	position: absolute;
+	top: -37px;
+	right: -53px;
+}
+
+.record__title
+{
+	position: relative;
+	margin: 0;
+	margin-bottom: 40px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 150%;
+	text-align: center;
+	color: #fff;
+
+	&::before
+	{
+		content: '';
+		position: absolute;
+		top: 53%;
+		left:-55px;
+		width: 80px;
+		height: 3px;
+		background-color: #C4C4C4;
+	}
+
+	&::after
+	{
+		content: '';
+		position: absolute;
+		top: 53%;
+		right: -78px;
+		width: 103px;
+		height: 3px;
+		background-color: #C4C4C4;
+	}
+}
+
+.record__line
+{
+	margin: auto;
+	margin-bottom: 40px;
+	width: 118px;
+	height: 1px;
+	background-color: #fff;
+}
+
+.record__text
+{
+	margin: 0;
+	margin-bottom: 77px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.record__form
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.record__form input::placeholder
+{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 150%;
+	color: white;
+}
+
+.record__input-group
+{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	width: 100%;
+	margin-bottom: 37px;
+}
+
+.record__input-text
+{
+	flex-basis: 255px;
+	padding-bottom: 10px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #fff;
+}
+
+.record__input-location
+{	
+	width: 540px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #fff;	
+}
+
+.record__btn
+{
+	height: 50px;
+	padding: 0 208.5px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	border: none;
+	border: 1px solid #fff;
+}
